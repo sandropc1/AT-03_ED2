@@ -73,7 +73,7 @@ printf("\nKey: %s\n",key);
 
 //se a linha deve ser removida ele volta pra posicao de file pointer guardada
     fseek(arq1,posicao, SEEK_SET );
-
+  fgets(verifica,200,arq1);
 //e na teoria substitui a linha
 
     //por algum motivo que eu particularmente nao entendo o fprintf nao quer substituir a linha
